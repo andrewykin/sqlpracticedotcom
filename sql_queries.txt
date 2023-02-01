@@ -15,4 +15,51 @@ SELECT first_name, last_name
 FROM patients
 WHERE allergies IS NULL;
 
+-- Show first name of patients that start with the letter 'C'
+SELECT first_name
+FROM patients
+WHERE first_name LIKE 'C%';
 
+-- Show first name and last name of patients that weigh within the range of 100 to 120 (inclusive)
+
+
+-- Update the patients table for the allergies column. If the patient's allergies is null, then replace it with 'NKA'
+
+
+-- Show first name and last name concatinated into one column to show their full name
+
+
+-- Show first name, last name, and full province name of each patient. Ex. 'Ontario' instead of 'ON'
+
+
+-- Show how many patients have a birth_date with 2010 as the birth year
+
+
+-- Show the first_name, last_name, and height of the patient with the greatest height
+
+
+-- Show all columns for patients who have one of the following patient_ids: 1, 45, 534, 879, 1000
+
+
+-- Show the total number of admissions
+
+
+-- Show all the columns from admissions where the patient was admitted and discharged on the same day
+
+
+-- Show the patient id and the total number of admissions for patient_id 579
+
+
+-- Based on the cities that our patients live in, show unique cities that are in province_id 'NS'
+
+
+-- Write a query to find the first name, last name, and birth date of patients who have height > 160 and weight > 70
+
+
+-- Write a query to find list of patients first name, last name, and allergies from city 'Hamilton' where allergies is not null
+
+
+-- Base on cities where patients live, display the list of unique cities starting with a vowel. Ascending order (cities)
+
+
+-- Medium
